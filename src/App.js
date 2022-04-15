@@ -1,5 +1,7 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom'
 import Landing from './components/Landing'
+import Proposal from './components/Proposal';
 
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
       </div>
       <div className='canvas'>
         <div className='wrapper'>
-          <Landing />
+          <Routes>
+            <Route path='/' element={<Landing />}></Route>
+            <Route path='/proposal' element={<Proposal />}></Route>
+          </Routes>
         </div>
       </div>
     </div>
