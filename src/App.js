@@ -1,4 +1,5 @@
 import './App.css';
+import Landing from './components/Landing'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       </div>
       <div className='canvas'>
         <div className='wrapper'>
-          
+          <Landing />
         </div>
       </div>
     </div>
