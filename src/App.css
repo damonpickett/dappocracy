@@ -22,6 +22,8 @@ body {
   background-color: #363538;
 }
 
+
+
 /* HEADER */
 
 .header {
@@ -50,4 +52,32 @@ body {
   width: 200px;
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
+}
+
+.uni-link {
+  text-decoration: none;
+}
+
+/* PROPOSAL COMPONENT */
+
+.proposal {
+  text-align: center;
+}
+
+.proposal h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+}
+
+.input-proposal {
+  border-radius: 10px;
+  border: none;
+}
+
+.input-description {
+  border-radius: 10px;
+  border: none;
+  width: 250px;
+  height: 350px;
 }

@@ -1,4 +1,5 @@
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 // Create Proposal button mounts Proposal component
 // Cast Vote button checks user address...
@@ -9,7 +10,7 @@ import '../App.css';
 function Landing() {
   return (
     <div className='landing'>
-        <button className='gold-button'>Create Proposal</button>
+        <Link className='uni-link' to='/proposal'><button className='gold-button'>Create Proposal</button></Link>
         <button className='gold-button'>Cast Vote</button>
     </div>
   );
